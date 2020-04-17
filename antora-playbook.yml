@@ -3,20 +3,15 @@ content:
   - url: .
     start_path: book
 
-# asciidoc:
-#   attributes:
-#     apiman:
-#       version:
-#         release: "1.3.0.Final"
-#         snapshot: "1.3.1-SNAPSHOT"
-#         wildfly10:
-#           version: "10.1.0.Final"
-#         wildfly9:
-#           version: "9.0.2.Final"
+asciidoc:
+  attributes:
+    apiman-version-release: "1.3.0.Final"
+    apiman-version-snapshot: "1.3.1-SNAPSHOT"
+    apiman-version-wildfly10: "10.1.0.Final"
+    apiman-version-wildfly9: "9.0.2.Final"
 
 site:
   title: Apiman User Guide
-  start_page: book::intro.adoc
   keys:
     google_analytics: "UA-56678850-3"
 

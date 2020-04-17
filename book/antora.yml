@@ -1,5 +1,6 @@
 name: apiman-user-guide
 title: Apiman User Guide
 version: 'latest'
+start_page: index.adoc
 nav:
   - modules/ROOT/nav.adoc
